@@ -20,7 +20,7 @@ A RAG (Retrieval-Augmented Generation) application that lets you upload PDFs and
 ### Backend
 
 ```bash
-cd kb-chat/backend
+cd GPT-chat/backend
 python -m venv venv
 venv\Scripts\activate        # Windows
 # source venv/bin/activate   # Mac/Linux
@@ -33,7 +33,7 @@ copy .env.example .env       # then edit .env and add your ANTHROPIC_API_KEY
 ### Frontend
 
 ```bash
-cd kb-chat/frontend
+cd GPT-chat/frontend
 npm install
 ```
 
@@ -43,12 +43,12 @@ Start both servers in separate terminals:
 
 ```bash
 # Terminal 1: Backend (port 8000)
-cd kb-chat/backend
+cd GPT-chat/backend
 venv\Scripts\activate
 uvicorn app.main:app --reload --port 8000
 
 # Terminal 2: Frontend (port 5173)
-cd kb-chat/frontend
+cd GPT-chat/frontend
 npm run dev
 ```
 
@@ -101,7 +101,7 @@ All settings are in `backend/.env`:
 ## Project Structure
 
 ```
-kb-chat/
+GPT-chat/
 ├── backend/
 │   ├── app/
 │   │   ├── main.py          # FastAPI app, CORS, routes

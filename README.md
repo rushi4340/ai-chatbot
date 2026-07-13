@@ -1,4 +1,4 @@
-# KB Chat — AI-Powered Knowledge Base Q&A
+# GPT_Chat — AI-Powered Knowledge Base Q&A
 
 A RAG (Retrieval-Augmented Generation) application that lets you upload PDFs and ask questions about their content. Answers are grounded in your documents with source citations and confidence scoring.
 

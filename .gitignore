@@ -1,0 +1,16 @@
+# Environment files with secrets
+backend/.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+backend/chroma_data/
+
+# Node
+frontend/node_modules/
+frontend/dist/
+
+# IDE
+.vscode/
+.idea/
